@@ -2,10 +2,6 @@
 //     1
 // }
 
-pub fn three() -> u32 {
-    3
-}
-
 pub fn four() -> f64 {
     4.0
 }
