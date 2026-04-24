@@ -1,4 +1,4 @@
-pub fn one() -> u32 {
+pub fn one() -> u64 {
     1
 }
 
