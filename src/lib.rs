@@ -1,6 +1,6 @@
-pub fn one() -> u64 {
-    1
-}
+// pub fn one() -> u64 {
+//     1
+// }
 
 pub fn two() -> u32 {
     2
@@ -10,10 +10,10 @@ pub fn two() -> u32 {
 mod tests {
     use super::*;
 
-    #[test]
-    fn test_one() {
-        assert_eq!(one(), 1);
-    }
+    // #[test]
+    // fn test_one() {
+    //     assert_eq!(one(), 1);
+    // }
 
     #[test]
     fn test_two() {
