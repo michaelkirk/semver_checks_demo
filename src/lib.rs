@@ -2,10 +2,6 @@
 //     1
 // }
 
-pub fn two() -> u32 {
-    2
-}
-
 pub fn three() -> u32 {
     3
 }
@@ -25,6 +21,6 @@ mod tests {
 
     #[test]
     fn test_two() {
-        assert_eq!(two(), 2);
+        assert_eq!(four(), 4.0);
     }
 }
