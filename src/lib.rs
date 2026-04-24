@@ -6,6 +6,10 @@ pub fn four() -> f64 {
     4.0
 }
 
+pub fn eight() -> usize {
+    8
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
