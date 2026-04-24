@@ -6,6 +6,14 @@ pub fn two() -> u32 {
     2
 }
 
+pub fn three() -> u32 {
+    3
+}
+
+pub fn four() -> u32 {
+    4
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
