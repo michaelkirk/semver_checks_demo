@@ -14,10 +14,6 @@ pub fn four() -> f64 {
     4.0
 }
 
-pub fn five() -> u32 {
-    5
-}
-
 #[cfg(test)]
 mod tests {
     use super::*;
