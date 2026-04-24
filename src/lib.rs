@@ -1,13 +1,26 @@
-pub fn one() -> u32 {
-    1
+// pub fn one() -> u64 {
+//     1
+// }
+
+pub fn four() -> f64 {
+    4.0
+}
+
+pub fn eight() -> usize {
+    8
 }
 
 #[cfg(test)]
 mod tests {
     use super::*;
 
+    // #[test]
+    // fn test_one() {
+    //     assert_eq!(one(), 1);
+    // }
+
     #[test]
-    fn test_one() {
-        assert_eq!(one(), 1);
+    fn test_two() {
+        assert_eq!(four(), 4.0);
     }
 }
